@@ -1,6 +1,17 @@
-h1{
- font-size: larger;
- font-family: 'Courier New', Courier, monospace;
- font-weight: 500;
- background: gold;
+*{
+ margin: 0;
+ padding: 0;
+}
+nav a{
+ text-decoration: none;
+}
+nav li {
+ list-style: none;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+}
+.navlink-container{
+ display: flex;
 }
