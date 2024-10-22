@@ -2,12 +2,17 @@
  margin: 0;
  padding: 0;
 }
+html {
+ font-size: 16px;
+}
 body{
- background-color: rgb(0, 0, 0)
+ background-color: rgb(0, 0, 0);
+ font-family: "Inter";
 }
 header{
  width: 70%;
- margin: 0 auto;
+ margin: 0 auto 32px;
+
 }
 nav a h1{
  color: rgba(230, 83, 60, 1.00);
@@ -55,20 +60,28 @@ nav{
  padding: 10% 20%;
 }
 
+/* Reuseable Classes */
 
-/* Hero Section Design */
-
+.color1{
+ color: rgba(255, 255, 255, 0.5);
+}
 .common-section1{
  width: 70%;
  margin: 0 auto;
+ border: 2px solid red;
 }
-
+/* Hero Section Design */
 #hero{
 display: flex;
+border: 2px solid green;
 }
 
 .hero-text-container{
  width: 50%;
+ border: 2px solid tomato;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 }
 
 .hero-text-container h1{
@@ -80,9 +93,29 @@ display: flex;
 .hero-text-container p{
  color: rgba(240, 248, 255, 0.751);
  font-family: "Inter";
+ /* margin: 20px ; */
 }
-
+.btn-container{
+ display: flex;
+}
 .hero-img-container{
  width: 50%;
  background-color: aliceblue;
+}
+#banner-card1,#banner-card2{
+ background-color: rgba(48, 48, 48, 0.54);
+ color: whitesmoke;
+ width: 45%;
+ padding: 15px;
+ border-radius: 20px ;
+}
+#banner-card1 h2{
+  font-weight: 900;
+  font-size: 40px;
+}
+.circle{
+ width: 20px;
+ height: 20px;
+ border-radius: 50px;
+ background-color: orangered;
 }
