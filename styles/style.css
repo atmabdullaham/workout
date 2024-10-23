@@ -516,4 +516,26 @@ P{
 
   
 }
+
+
+
+/* _____Training Section________ */
+
+.img3-cont, .img6-cont{
+  display: none;
+  
+}
+.img1-cont, .img2-cont{
+  width: 50%;
+  height: 150px;
+}
+.img4-cont{
+  width: 45%;
+  height: 150px;
+}
+.img5-cont{
+  width: 55%;
+  height: 150px;
+}
+
 }
