@@ -333,6 +333,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    margin-bottom: 20px;
   }
 
   .hero-text-container {
@@ -372,5 +373,21 @@ nav {
  .btn-container{
   justify-content: space-between;
 }
-
+.heading2{
+  font-size: 36px;
+}
+.habit-container{
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  
+}
+.habit-card{
+  width: 80%;
+}
+.habit-container img {
+  width: 250px;
+  height: 250px;
+  
+}
 }
