@@ -128,6 +128,9 @@ nav {
 .mb6{
   margin-bottom: 6px;
 }
+.mb34{
+  margin-bottom: 34px;
+}
 .text-center{
   text-align: center;
 }
@@ -190,6 +193,8 @@ nav {
   line-height: 22px;
   color: white;
   margin-right: 8px;
+  width: 224px;
+  border: none;
 }
 
 .btn2 {
@@ -266,7 +271,7 @@ nav {
 
 /* Habit Section Design Started Here */
 #habit{
-
+margin-bottom: 100px;
 }
 .habit-container{
   display: flex;
@@ -294,6 +299,35 @@ nav {
 
 
 
+
+
+
+/* _____________Run Section___________ */
+
+.text-img-container{
+  display: flex;
+  justify-content:space-between;
+  background-color: rgba(68, 67, 67, 0.853);
+  padding: 25px;
+  
+
+}
+.run-text-container{
+  width: 40%;
+  padding: 30px;
+ 
+}
+.run-img-container{
+  width: 40%;
+  height: auto;   
+  background-image: url('../images/run.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+ 
+
+}
 
 
 
