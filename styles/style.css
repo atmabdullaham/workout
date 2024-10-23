@@ -1,130 +1,267 @@
-*{
- margin: 0;
- padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 html {
- font-size: 16px;
+  font-size: 16px;
 }
-body{
- background-color: rgb(0, 0, 0);
- font-family: "Inter";
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Inter";
+  margin: 0 auto;
 }
-header{
- width: 70%;
- margin: 0 auto 32px;
+
+header {
+  width: 70%;
+  margin: 0 auto 52px;
+  margin-top: 3.5625rem;
 
 }
-nav a h1{
- color: rgba(230, 83, 60, 1.00);
- font-weight: 800;
- font-size: 2.25rem;
- font-style: italic;
+
+nav a h1 {
+  color: rgba(230, 83, 60, 1.00);
+  font-weight: 800;
+  font-size: 2.25rem;
+  font-style: italic;
 }
-nav a{
- text-decoration: none;
+
+nav a {
+  text-decoration: none;
 }
+
 nav li {
- list-style: none;
+  list-style: none;
 }
-nav{
- display: flex;
- justify-content: space-between;
- font-family: "Inter";
- border: 2px solid green;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  border: 2px solid green;
+  align-items: center;
 
 }
-.navlink-container{
- display: flex;
- border: 1px solid white;
- gap: 47px;
- justify-content: center;
- align-items: center;
+
+.navlink-container {
+  display: flex;
+  border: 1px solid white;
+  gap: 47px;
+  justify-content: center;
+  align-items: center;
 
 }
-.nav-anchor{
+
+.nav-anchor {
+  color: white;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navlink-container #home {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
-   font-family: "Inter";
-   font-size: 18px;
-   font-weight: 400;
-   line-height: 120%;
-   letter-spacing: 0%;
-   text-align: left;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10% 20%;
 }
-.navlink-container  #home{
- border-radius: 46px;
- background: rgb(230, 83, 60);
- color: rgb(255, 255, 255);
- font-size: 18px;
- font-weight: 600;
- line-height: 22px;
- padding: 10% 20%;
-}
+
+
+
+
+
+
 
 /* Reuseable Classes */
 
-.color1{
- color: rgba(255, 255, 255, 0.5);
+.color1 {
+  color: rgba(255, 255, 255, 0.5);
 }
-.common-section1{
- width: 70%;
- margin: 0 auto;
- border: 2px solid red;
+
+.common-section1 {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid red;
 }
+
+
+
+
+
+
 /* Hero Section Design */
-#hero{
-display: flex;
-border: 2px solid green;
+#hero {
+  display: flex;
+  border: 2px solid green;
+  margin: 0 auto;
+  gap: 167px;
+  align-items: center;
 }
 
-.hero-text-container{
- width: 50%;
- border: 2px solid tomato;
- display: flex;
- flex-direction: column;
- justify-content: space-around;
+.hero-text-container {
+  width: 60%;
+  height: auto;
+  border: 2px solid tomato;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
 }
 
-.hero-text-container h1{
- color: white;
- font-family: "Inter";
- font-size: 78px;
- font-weight: 900;
-}
-.hero-text-container p{
- color: rgba(240, 248, 255, 0.751);
- font-family: "Inter";
- /* margin: 20px ; */
-}
-.btn-container{
- display: flex;
-}
-.hero-img-container{
- width: 50%;
- background-color: aliceblue;
-}
-#banner-card1,#banner-card2{
- background-color: rgba(48, 48, 48, 0.54);
- color: whitesmoke;
- width: 45%;
- padding: 15px;
- border-radius: 20px ;
-}
-#banner-card1 h2{
+.hero-text-container h1 {
+  color: white;
+  font-family: "Inter";
+  font-size: 4.875rem;
   font-weight: 900;
-  font-size: 40px;
-}
-.circle{
- width: 20px;
- height: 20px  ;
- border-radius: 50px;
- background-color: orangered;
-}
-.material-symbols-outlined {
+  line-height: 120%;
+  margin-bottom: 28px;
 
+}
+
+.italic {
+  font-family: "Miama";
+  font-weight: 400;
+  font-size: 4.875rem;
+  font-style: italic;
+}
+
+.hero-text-container p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 28px;
+
+}
+
+.btn1 {
+  border-radius: 42px;
+  background-color: #E6533C;
+  padding: 16px 40px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+}
+
+.btn2 {
+  background-color: black;
+  border-radius: 42px;
+  padding: 16px 40px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid white;
+
+}
+
+.btn-container {
+  display: flex;
+}
+
+.hero-img-container {
+  width: 40%;
+  height: 580px;
+  background-image: url("../images/images 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid gold;
+
+}
+
+.hero-img-container img {
+  /* position: relative; */
+}
+
+#banner-card1,
+#banner-card2 {
+  background-color: rgba(48, 48, 48, 0.54);
+  color: whitesmoke;
+  width: 45%;
+  padding: 15px;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+#banner-card1 h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: orangered;
+}
+
+.material-symbols-outlined {
+  color: aliceblue;
+  display: none;
   font-variation-settings:
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
     'opsz' 24,
-  
+
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+
+  header {
+    /* margin: 10px; */
+  }
+
+  #hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text-container {
+    width: 100%;
+
+
+  }
+
+  .navlink-container {
+    display: none;
+
+  }
+
+  .material-symbols-outlined {
+    display: block;
+  }
+
+  .hero-img-container {
+    width: 100%;
+  }
+
+  .hero-text-container h1 {
+    font-size: 36px;
+    width: 70%;
+  }
+
+  .hero-text-container p {
+    width: 80%;
+  }
+
+  .italic {
+    font-size: 36px;
+  }
 }
