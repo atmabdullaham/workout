@@ -447,7 +447,7 @@ margin-bottom: 100px;
 
 .calculate-container{
   width: 50%;
-  margin-top: 50px;
+  margin: 50px 0px;
  
 }
 .calculate-container h3 {
@@ -636,5 +636,24 @@ P{
   width: 55%;
   height: 150px;
 }
+
+/* ______BMI_______ */
+.flex{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calculator-container{
+  width: 90%;
+}
+.calculate-container{
+  width: 100%;
+}
+
+#input1, #input2, #input3, #input4{
+  width: 40%;  }
+  #input5{
+    width: 87%;
+  }
 
 }
