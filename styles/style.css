@@ -131,8 +131,14 @@ nav {
 .mb34{
   margin-bottom: 34px;
 }
+.mb58{
+  margin-bottom: 58px;
+}
 .text-center{
   text-align: center;
+}
+.width-half{
+  width: 50%;
 }
 
 
@@ -304,6 +310,9 @@ margin-bottom: 100px;
 
 /* _____________Run Section___________ */
 
+#run{
+  margin-bottom: 100px;
+}
 .text-img-container{
   display: flex;
   justify-content:space-between;
@@ -326,6 +335,68 @@ margin-bottom: 100px;
   background-repeat: no-repeat;
   border-radius: 15px;
  
+
+}
+
+
+/* ______Training________ */
+.row{
+  display: flex;
+}
+.img1-cont{
+  background-image:linear-gradient(rgba(6, 255, 210, 0.5),transparent), url("../images/exercise1.jpg");
+  width: 20%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img2-cont{
+  background-image:linear-gradient(rgba(255, 0, 0, 0.3),transparent), url("../images/exercise2.png");
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img3-cont{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),transparent), url("../images/exercise3.png");
+  width: 30%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img4-cont{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),transparent), url("../images/exercise4.png");
+  width: 40%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img5-cont{
+  background-image:linear-gradient(rgba(66, 255, 0, 0.3),transparent), url("../images/exercise5.jpg");
+  width: 25%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img6-cont{
+  background-image:linear-gradient(rgba(0, 71, 255, 0.3),transparent), url("../images/exercise6.jpg");
+  width: 35%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row h4{
+  font-family: "Inter";
+  font-size: 18px;
+  position: relative;
+  color:black;
+  top: 150px;
 
 }
 
