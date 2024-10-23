@@ -90,9 +90,47 @@ nav {
   margin: 0 auto;
   border: 2px solid red;
 }
+.heading2{
+  color: white;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.para2{
+   color: white;
+    opacity: 0.5;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
 
+    
+}
+.habit-text-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 58px;
+}
 
-
+.heading3{
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  color: white;
+    
+}
+.mb6{
+  margin-bottom: 6px;
+}
+.text-center{
+  text-align: center;
+}
 
 
 
@@ -103,6 +141,7 @@ nav {
   margin: 0 auto;
   gap: 167px;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .hero-text-container {
@@ -150,6 +189,7 @@ nav {
   font-weight: 600;
   line-height: 22px;
   color: white;
+  margin-right: 8px;
 }
 
 .btn2 {
@@ -168,6 +208,7 @@ nav {
 
 .btn-container {
   display: flex;
+  gap: 10px;
 }
 
 .hero-img-container {
@@ -219,18 +260,79 @@ nav {
 
 }
 
+
+
+
+
+/* Habit Section Design Started Here */
+#habit{
+
+}
+.habit-container{
+  display: flex;
+  justify-content: space-between;
+}
+.habit-container img{
+   width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px ;
+}
+.habit-card{
+
+}
+.habit-card{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   html {
     font-size: 14px;
   }
 
   header {
-    /* margin: 10px; */
+  
   }
 
   #hero {
     flex-direction: column;
     align-items: center;
+    gap: 48px;
   }
 
   .hero-text-container {
@@ -264,4 +366,11 @@ nav {
   .italic {
     font-size: 36px;
   }
+ .btn1, .btn2{
+  padding: 10px 20px;
+}
+ .btn-container{
+  justify-content: space-between;
+}
+
 }
