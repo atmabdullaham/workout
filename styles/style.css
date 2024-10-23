@@ -726,5 +726,18 @@ P{
   #input5{
     width: 87%;
   }
+/* __________Meet Our Team_______________ */
+
+.row2{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.member1, .member2, .member3, .member4, .member5,.member6{
+  width: 95%;
+  height: 272px;
+  
+}
+
 
 }
