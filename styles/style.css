@@ -376,8 +376,6 @@ padding: 80px 0px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
-  
 }
 .e-heading{
   color: white;
@@ -391,8 +389,7 @@ padding: 80px 0px;
   
 
 
-.equipment1 {
-  background-image: url("../images/smart-treadmill .png");
+.equipment {
   width: 32%;
   height: 272px;
   background-size: cover;
@@ -400,42 +397,21 @@ padding: 80px 0px;
   background-repeat: no-repeat;
   border-radius: 15px;
   transition: transform 0.5s ease;
-  
-  
 }
-.equipment1:hover{
+.bg1{
+background-image: url("../images/smart-treadmill .png");
+}
+.bg2{
+background-image: url("../images/adjustable-dumbbells.png");
+}
+.bg3{
+background-image: url("../images/connected-rowing-machine.png");
+}
+.equipment:hover{
 transform: scale(1.1);
 }
 
 
-
-.equipment2 {
-  background-image: url("../images/adjustable-dumbbells.png");
-  width: 32%;
-  height: 272px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  transition: transform 0.5s ease;
-}
-.equipment2:hover {
-  transform: scale(1.1);
-}
-
-.equipment3 {
-  background-image: url("../images/connected-rowing-machine.png");
-  width: 32%;
-  height: 272px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  transition: transform 0.5s ease;
-}
-.equipment3:hover {
-  transform: scale(1.1);
-}
 
 .relative1{
   position: relative;
@@ -851,8 +827,18 @@ P{
 .run-img-container{
   width: 80%;
   height: 170px;
+}
 
+/* ________________Equipment____________ */
+.equipment-container {
+  flex-direction: column;
   
+}
+.equipment {
+  width: 80%;
+}
+.equipment-container{
+  gap: 100px;
 }
 
 
