@@ -795,7 +795,7 @@ P{
 
 .footer-flex-content{
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 44px 20px 72px;
   gap: 40px;
 }
