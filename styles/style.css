@@ -237,25 +237,52 @@ nav {
   /* position: relative; */
 }
 
-#banner-card1,
+#banner-card1{
+   background-color: rgba(48, 48, 48, 0.54);
+    color: whitesmoke;
+    width: 200px;
+      height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    top: 125px;
+    left: 250px;
+    box-sizing: border-box;
+    border: 1px solid rgba(48, 48, 48, 0.54); 
+    font-family: "Inter";
+}
 #banner-card2 {
   background-color: rgba(48, 48, 48, 0.54);
   color: whitesmoke;
-  width: 45%;
+  width: 200px;
+  height: 72px;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
   position: relative;
+    top: 320px;
+    right:100px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+border: 1px solid rgba(48, 48, 48, 0.54); 
+font-family: "Inter";
 
 }
 
 #banner-card1 h2 {
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 18px;
+  font-family: "Inter";
+}
+#banner-card1 h2 {
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50px;
   background-color: orangered;
 }
@@ -270,7 +297,6 @@ nav {
     'opsz' 24,
 
 }
-
 
 
 
@@ -338,6 +364,85 @@ margin-bottom: 100px;
 
 }
 
+/* ________________Equipment____________________ */
+
+#equipment{
+
+}
+.equipment-card-container{
+padding: 80px 0px;
+}
+.equipment-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+.e-heading{
+  color: white;
+  opacity: 0.8;
+  font-family: "Inter";
+  margin-bottom: 8px;
+}
+
+
+ 
+  
+
+
+.equipment1 {
+  background-image: url("../images/smart-treadmill .png");
+  width: 32%;
+  height: 272px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+  
+  
+}
+.equipment1:hover{
+transform: scale(1.1);
+}
+
+
+
+.equipment2 {
+  background-image: url("../images/adjustable-dumbbells.png");
+  width: 32%;
+  height: 272px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+}
+.equipment2:hover {
+  transform: scale(1.1);
+}
+
+.equipment3 {
+  background-image: url("../images/connected-rowing-machine.png");
+  width: 32%;
+  height: 272px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+}
+.equipment3:hover {
+  transform: scale(1.1);
+}
+
+.relative1{
+  position: relative;
+  top: -80px;
+  width: 80%;
+  margin: 0 auto;
+}
 
 /* ______Training________ */
 #training{
@@ -702,6 +807,17 @@ P{
  .btn-container{
   justify-content: space-between;
 }
+#banner-card1 {
+  top: 48px;
+  left: 210px;
+}
+#banner-card2 {
+  top: 200px;
+  left: 12px;
+}
+
+
+/* _________Habit__________ */
 .heading2{
   font-size: 36px;
 }
