@@ -29,6 +29,8 @@ nav a h1 {
 
 nav a {
   text-decoration: none;
+  font-family: " Inter";
+  color: white;
 }
 
 nav li {
@@ -39,14 +41,15 @@ nav {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
-  border: 2px solid green;
   align-items: center;
 
 }
 
 .navlink-container {
   display: flex;
-  border: 1px solid white;
+  border: 1px solid rgba(108, 108, 108, 0.59);
+  border-radius: 20px;
+  padding: 8px;
   gap: 47px;
   justify-content: center;
   align-items: center;
@@ -88,7 +91,6 @@ nav {
 .common-section1 {
   width: 70%;
   margin: 0 auto;
-  border: 2px solid red;
 }
 .heading2{
   color: white;
@@ -146,7 +148,6 @@ nav {
 /* Hero Section Design */
 #hero {
   display: flex;
-  border: 2px solid green;
   margin: 0 auto;
   gap: 167px;
   align-items: center;
@@ -156,7 +157,6 @@ nav {
 .hero-text-container {
   width: 60%;
   height: auto;
-  border: 2px solid tomato;
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
@@ -230,7 +230,6 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 2px solid gold;
 
 }
 
@@ -339,11 +338,13 @@ margin-bottom: 100px;
 
 #run{
   margin-bottom: 100px;
+  
 }
 .text-img-container{
   display: flex;
   justify-content:space-between;
   background-color: rgba(68, 67, 67, 0.853);
+  border-radius: 20px;
   padding: 25px;
   
 
@@ -377,6 +378,7 @@ padding: 80px 0px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 15px;
 }
 .e-heading{
   color: white;
@@ -384,11 +386,6 @@ padding: 80px 0px;
   font-family: "Inter";
   margin-bottom: 8px;
 }
-
-
- 
-  
-
 
 .equipment {
   width: 32%;
@@ -398,6 +395,8 @@ padding: 80px 0px;
   background-repeat: no-repeat;
   border-radius: 15px;
   transition: transform 0.5s ease;
+  /* background-color:  rgba(72, 72, 72, 0.482);   */
+
 }
 .bg1{
 background-image: url("../images/smart-treadmill .png");
@@ -412,13 +411,14 @@ background-image: url("../images/connected-rowing-machine.png");
 transform: scale(1.1);
 }
 
-
-
 .relative1{
   position: relative;
-  top: -80px;
-  width: 80%;
+  top: -98px;
+  width: 90%;
   margin: 0 auto;
+  background-color: rgba(88, 86, 86, 0.514);
+  padding: 15px;
+  border-radius: 15px;
 }
 
 /* ______Training________ */
@@ -461,7 +461,7 @@ transform: scale(1.1);
   background-repeat: no-repeat;
 }
 .img5-cont{
-  background-image:linear-gradient(rgba(68, 255, 0, 0.593),transparent), url("../images/exercise5.jpg");
+  background-image:linear-gradient( rgba(68, 255, 0, 0.593),transparent), url("../images/exercise5.jpg");
   width: 25%;
   height: 200px;
   background-size: cover;
@@ -889,7 +889,7 @@ P{
   align-items: center;
 }
 .calculator-container{
-  width: 90%;
+  width: 100%;
 }
 .calculate-container{
   width: 100%;
