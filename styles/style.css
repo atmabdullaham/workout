@@ -451,13 +451,14 @@ margin-bottom: 100px;
   margin: 50px 0px;
  
 }
-.calculate-container h3 {
+.type-h3 {
   color: white;
   font-family: "Inter";
   font-size: 28px;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 14px;
+  margin-bottom: 40px;
  
 }
 .mb34{
@@ -506,8 +507,8 @@ border-radius: 8px;
 
 
 /* __________________Meet__Section____________ */
-.meet-text-container{
-  
+#meet{
+  margin-bottom: 88px;
 }
 .meet-img-container{
   padding: 20px;
@@ -577,10 +578,61 @@ height: 272px;
 }
 
 
+/* _____________Footer_______________ */
 
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.column1 h1{
+  font-family: "Inter";
+  font-weight: 800;
+  font-style: italic;
+  font-size: 70px;
+  color:#E6533C;
+}
 
+.footer-flex-content{
+  display: flex;
+ justify-content: space-between;
+}
+.footer-flex-content .column1{
+width: 40%;
+height: auto;
+}
+.footer-flex-content .column2{
+  width: 20%;
+  height: auto;
 
+}
+.footer-flex-content .column3{
+  width: 20%;
+    height: auto;
+    mt
+}
+.foot-anchor{
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  font-family: "Inter";
+}
+.li-container li{
+  list-style: none;
+  margin-bottom: 20px;
+}
 
+.right p{
+  font-family: "Inter";
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+footer > section{
+  padding: 66px 0px 35px;
+}
+hr{
+  margin: 80px 0px 36px;
+  opacity: .4;
+}
 
 
 
